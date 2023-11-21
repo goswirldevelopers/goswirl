@@ -65,51 +65,51 @@ export default function App() {
   }
 
   useEffect(() => {
-    if(document && window.location.pathname === "/"){
-       // Get all the menu items
-    const menuItems = document.querySelectorAll('.sidebar-item');
+    if (document && window.location.pathname === "/") {
+      // Get all the menu items
+      const menuItems = document.querySelectorAll('.sidebar-item');
 
-    // Loop through each menu item
-    menuItems.forEach(item => {
-      // Get the link inside the menu item
-      const link = item.querySelector('a');
+      // Loop through each menu item
+      menuItems.forEach(item => {
+        // Get the link inside the menu item
+        const link = item.querySelector('a');
 
-      // Check if the link's href matches the current pathname
-      if (link.getAttribute('href') === "/") {
-        // Add the active class if it matches
-        item.style.backgroundColor = "#424242"
-        item.classList.add('sidebar-active-item');
+        // Check if the link's href matches the current pathname
+        if (link.getAttribute('href') === "/") {
+          // Add the active class if it matches
+          item.style.backgroundColor = "#424242"
+          item.classList.add('sidebar-active-item');
 
-      } else {
-        // Remove the active class if it doesn't match
-        item.classList.remove('sidebar-active-item');
-        item.style.backgroundColor = "black"
-      }
-    });
-    }else{
-        // Get all the menu items
-    const menuItems = document.querySelectorAll('.sidebar-item');
-// Loop through each menu item
-menuItems.forEach(item => {
-  // Get the link inside the menu item
-  const link = item.querySelector('a');
+        } else {
+          // Remove the active class if it doesn't match
+          item.classList.remove('sidebar-active-item');
+          item.style.backgroundColor = "black"
+        }
+      });
+    } else {
+      // Get all the menu items
+      const menuItems = document.querySelectorAll('.sidebar-item');
+      // Loop through each menu item
+      menuItems.forEach(item => {
+        // Get the link inside the menu item
+        const link = item.querySelector('a');
 
-  // Check if the link's href matches the current pathname
-  if (link.getAttribute('href') === window.location.pathname) {
-    // Add the active class if it matches
-    item.style.backgroundColor = "#424242"
-    item.classList.add('sidebar-active-item');
+        // Check if the link's href matches the current pathname
+        if (link.getAttribute('href') === window.location.pathname) {
+          // Add the active class if it matches
+          item.style.backgroundColor = "#424242"
+          item.classList.add('sidebar-active-item');
 
-  } else {
-    // Remove the active class if it doesn't match
-    item.classList.remove('sidebar-active-item');
-    item.style.backgroundColor = "black"
-  }
-});
+        } else {
+          // Remove the active class if it doesn't match
+          item.classList.remove('sidebar-active-item');
+          item.style.backgroundColor = "black"
+        }
+      });
     }
-   
+
   }, [])
-  
+
 
   return (
     <>
