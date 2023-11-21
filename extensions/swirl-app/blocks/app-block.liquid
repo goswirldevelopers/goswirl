@@ -1,0 +1,19 @@
+<div>
+    {{ block.settings.snippet }}
+</div>
+
+{% schema %}
+    {
+        "name":"Swirl app",
+        "target": "section",
+        "settings": [
+            {
+                "type": "textarea",
+                "id": "snippet",
+                "label": "snippet",
+                "default": "paste your code here"
+            }
+            
+        ]
+    }
+{% endschema %}

@@ -1,0 +1,50 @@
+.dashboard-heading{
+    margin-bottom: 24px;
+    font-family: Circular Std;
+font-size: 36px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #181218;
+}
+
+.grid-container{
+    height: 194px;
+    top: 182px;
+    left: 300px;
+    border-radius: 20px;
+border: 1px solid #F1F1EE;
+}
+
+.label-text{
+    font-family: Circular Std;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #181218;
+margin-left: 32px;
+}
+
+.value-text{
+    font-family: Circular Std;
+font-size: 60px;
+font-weight: 500;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: left;
+color: #181218;
+margin-left: 32px;
+}
+
+.container-detail{
+        /* vertical-align: middle; */
+        position: relative;
+        /* display: block; */
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+        top: 50%;
+        transform: translateY(-50%);
+}

@@ -1,0 +1,108 @@
+.playlist-item-container{
+    /* width: 375px !important; */
+height: 289px;
+top: 284px;
+left: 300px;
+border-radius: 10px;
+border: 1px;
+
+}
+.wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  .wrap div:last-child {
+    margin-left: auto;
+  }
+
+.item-type-image{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    text-align: center;
+
+}
+
+.playlist-item-title{
+
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #181218;
+}
+
+.playlist-item-created{
+    margin-top: 8px;
+    color: #A7A7A7;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+
+}
+
+  .option-image-playlist button{
+    background: none;
+    border: none;
+  }
+  .option-image-playlist button::after{
+    display: none;
+  }
+  .option-image-playlist button:hover{
+    background: none;
+  }
+
+  .option-image-playlist .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: unset !important;
+    color: #969696 !important;
+  }
+
+  .Polaris-Modal-Dialog__Modal button:hover{
+    background: none;
+  }
+
+  .modal-action-button .Polaris-ButtonGroup .Polaris-ButtonGroup__Item button:hover{
+    background-color: none !important;
+  }
+
+  .status-filter #dropdown-basic-button {
+    width: 256px;
+    height: 50px;
+    top: 206px;
+    left: 983px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    background-color: transparent;
+    color: #969696;
+    text-align: left;
+  }
+
+  .status-filter button:hover {
+    background-color: transparent !important;
+    color: #969696;
+    border: 1px solid #E7E7E7 !important;
+  }
+
+  .status-filter .dropdown-menu {
+    width: 256px;
+  }
+
+  .option-image-playlist button img {
+    margin-left: auto;
+    margin-right: -16px;
+  }
+
+  .update-paylist-btn button{
+    background-color: #000000 ;
+    border-radius:10px;
+    padding:10px, 20px, 10px, 20px;
+  }
+  
+  .update-paylist-btn button:hover{
+    background-color: #000000 !important;
+  }

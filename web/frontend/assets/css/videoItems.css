@@ -1,0 +1,106 @@
+.container-box {
+    position: relative;
+    width: auto;
+    width: 100%;
+  }
+  
+  .option-image {
+    position: absolute !important;
+    right: 5px;
+    top: 5px;
+    
+  }
+
+  .option-image button{
+    background: none;
+    border: none;
+  }
+  .option-image button::after{
+    display: none;
+  }
+  .option-image button:hover{
+    background: none;
+  }
+  .duration {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: #00000099;
+    color: white;
+    width: 40px;
+    border: 0.5px solid;
+    text-align: center;
+    border-radius: 10px;
+    padding:5px, 10px, 5px, 10px
+  }
+
+  .video-duration{
+    
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .video-item-title span{
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181218;
+
+    
+  }
+
+  .video-item-title{
+    margin-top: 16px;
+    /* margin-bottom: 16px; */
+    position: relative;
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .video-react-poster{
+   
+    border-radius: 10px 10px 0px 0px !important;
+
+  }
+  .disable-title{
+    width: 434px;
+    height: 55px;
+    top: 112px;
+    left: 434px;
+    border-radius: 5px;
+    border: 1px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.divider-line{
+
+  border-bottom:  1px solid #000000;
+  opacity: 10%;
+  margin-top: 24px !important;
+  margin-bottom: 24px;
+}
+
+.video-react-button{
+    background: white !important;
+    color: black !important;
+    max-width: 50px !important;
+    border-radius: 30px !important;
+    opacity: 0.8 !important;
+    margin-left: -1em !important;
+}
+
+.video-react .video-react-video {
+  border-radius: 10px 10px 0px 0px !important;
+}

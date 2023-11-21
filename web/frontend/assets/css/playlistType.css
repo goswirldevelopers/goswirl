@@ -1,0 +1,77 @@
+.type-image{
+    width: 200px;
+    height: 142.39999389648438px;
+    top: 326px;
+    left: 375px;
+    border-radius: 10px;
+}
+
+.type-label{
+    width: 121px;
+    height: 23px;
+    top: 486px;
+    left: 427px;
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+}
+
+.type-button{
+    width: Hug (107px);
+    height: Hug (43px);
+    top: 527px;
+    left: 434px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.card-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.playlist-title-name{
+    width: 434px;
+    height: 55px;
+    top: 112px;
+    left: 434px;
+    border-radius: 5px;
+    border: 1px;
+
+}
+
+.disable-title{
+    width: 434px;
+    height: 55px;
+    top: 112px;
+    left: 434px;
+    border-radius: 5px;
+    border: 1px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.divider-line{
+    border-bottom:  1px solid #000000;
+    opacity: 10%;
+    margin-top: 24px !important;
+    margin-bottom: 24px;
+}
+
+.navigation-step-1{
+    margin-bottom: 48px;
+    
+}
+
+.navigation-step-1 img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}

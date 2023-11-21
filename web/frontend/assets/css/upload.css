@@ -1,0 +1,93 @@
+.Polaris-Frame__Content{
+    background-color: #FFFFFF ;
+}
+
+.Polaris-Grid-Cell{
+    border: Solid 2px #ECECEC;
+    border-radius: 20px;
+}
+
+.Polaris-Layout {
+    margin: 0 20px 20px 0px !important;
+}
+.Polaris-Layout__Annotation{
+    position: absolute;
+}
+.title-required {
+    content:"*";
+    color:red;
+}
+
+.Polaris-TextField__Input{
+    
+    border: 1px solid #E7E7E7 !important;
+    border-radius: 5px;
+}
+
+.form-control{
+    
+    border: 1px solid #E7E7E7 !important;
+    border-radius: 5px;
+}
+
+.Polaris-Button{
+    border: 1px solid #E7E7E7 !important;
+    border-radius: 5px;
+}
+
+.submit-button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button button{
+    background-color: #181218;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.submit-button button:hover{
+    background-color: #181218;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.form-check-input:checked {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image: none !important;
+}
+
+
+.video-react{
+    border-radius: 20px;
+    margin: auto;
+}
+
+ /* .video-react .video-react-big-play-button.video-react-big-play-button-center {
+     width: 48px;
+    height: 48px;
+    justify-content: center;
+    display: block;
+     margin: 0; 
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 0; 
+}  */
+
+.video-react-button{
+    background: white !important;
+    color: black !important;
+    max-width: 50px !important;
+    border-radius: 30px !important;
+    opacity: 0.8 !important;
+    margin-left: -1em !important;
+  }

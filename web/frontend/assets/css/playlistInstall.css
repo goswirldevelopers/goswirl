@@ -1,0 +1,34 @@
+.heading-first-col, .detail-first-col, .heading-second-col, .detail-second-col{
+    margin-bottom: 24px;
+}
+
+.heading-first-col span, .heading-second-col span{
+    font-family: Circular Std;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.detail-first-col span, .detail-second-col span{
+    font-family: Circular Std;
+font-size: 18px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #181218;
+
+}
+
+.first-col{
+    border-right: 1px solid #C3C3C3;
+    margin-right: 24px;
+}
+
+.install-container-row{
+    border: 2px solid #E9E9E9;
+    padding: 32px;
+    border-radius: 10px;
+}

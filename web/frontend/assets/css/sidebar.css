@@ -1,0 +1,47 @@
+.Polaris-Page{
+    max-width: 100% !important;
+    margin-left: 250px !important;
+}
+.sidebar-heading{
+    color: #EEEE77;
+    margin-top: 30px;
+    font-weight: bold;    
+}
+.sidebar{
+    margin-top: 40px;
+}
+.sidebar-first-item{
+    
+    color: #FFFFFF;
+}
+
+.sidebar-item{
+    opacity: .5;
+    margin-bottom: 8px;
+}
+
+li.sidebar-first-item {
+    background-color: #424242;
+    color: white
+}
+
+.sidebar-first-item > .ps-menu-button:hover{
+    background: #424242 !important;
+    color: white;
+}
+
+.sidebar-item >.ps-menu-button:hover {
+    background:#424242 !important;
+}
+
+.sidebar-header-logo >.ps-menu-button:hover {
+    background: black !important;
+}
+
+.ps-menu-button span{
+    margin-left: 24px;
+}
+
+.menu-items{
+    margin-top: 32px;
+}

@@ -1,0 +1,75 @@
+.upload-card-container {
+    width: 242px;
+height: 329px;
+top: 182px;
+left: 300px;
+border-radius: 20px;
+border: 1px;
+margin: 0 auto;
+}
+
+.upload-type-image{
+    width: 60px;
+height: 60px;
+vertical-align: middle;
+left: 391px;
+margin-top: 32px;
+
+}
+
+.upload-type-label{
+    font-family: Circular Std;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+color: #181218;
+text-align: center;
+}
+
+.upload-type-button{
+    width: 207px;
+    height: 40px;
+    top: 383px;
+    left: 318px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #181218;
+    color: #FFFFFF;
+    margin-top: 32px;
+
+}
+
+.upload-action-container{
+    margin-top: 24px;
+}
+
+.upload-action-container span{
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 450;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color:  #A1A1A1;
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+
+.main-heading-container{
+    margin-bottom: 24px;
+}
+
+.main-heading-container span{
+    font-family: Circular Std;
+font-size: 36px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+color: #181218;
+
+
+}

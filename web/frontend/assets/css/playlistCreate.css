@@ -1,0 +1,40 @@
+.playlist-create{
+    width: 486px;
+    height: 267.6348571777344px;
+    top: 254px;
+    left: 842px;
+    border-radius: 10px;
+}
+
+.playlist-create-button{
+
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    gap: 10px;
+    background: #181218;
+    color: white;
+    margin-top: 64px;
+}
+
+.Polaris-TextField{
+    
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #221133 !important;
+    margin-bottom: 24px;
+}
+
+.Polaris-TextField__Input{
+    border: 1px solid #E7E7E7 !important;
+    border-radius: 5px;
+}
+
+.playlst-title-button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    gap: 16px;
+    background-color: #000000 !important;
+    color: #FFFFFF;
+}
